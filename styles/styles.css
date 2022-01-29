@@ -29,7 +29,7 @@
 }
 
 pre {
-    font-family: 'sorce code';
+    font-family: 'source code';
     color: var(--cl5);
     font-size: 30px;
     padding: 16px;
@@ -139,6 +139,16 @@ footer {
     }
 
     pre {
-        font-size: 18px;
+        font-size: 15px;
+        overflow: hidden;
+    }
+
+    .editor {
+        font-size: 13px;
+        overflow: hidden;
+    }
+
+    .number {
+        font-size: 10px;
     }
 }
