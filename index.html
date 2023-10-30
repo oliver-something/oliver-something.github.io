@@ -71,9 +71,14 @@
     </div>
     <footer class="container fadingIn">
         <pre>
-<span class="variable">const</span> copyright = <span class="string">"&copy;2022"</span>;
+<span class="variable">const</span> copyright = <span class="string" id="date">"&copy;2022"</span>;
 <span class="variable">console</span>.log(copyright);
         </pre>
     </footer>
+    <script>
+        let paragraph = document.getElementById('date');
+        const date = new Date();
+        paragraph.innerText += `© ${date.getFullYear()} - All right reserved`;
+    </script>
 </body>
 </html>
