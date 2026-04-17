@@ -1,4 +1,4 @@
-\# Built Version
+# Built Version
 
 
 
@@ -10,5 +10,4 @@ For the source code, please visit:
 
 
 
-`github.com/oliver-portfolio-svelte`
-
+[Click here for the source code](https://github.com/oliver-something/oliver-portfolio-svelte)
